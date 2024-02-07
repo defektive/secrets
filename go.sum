@@ -1,0 +1,4 @@
+github.com/godbus/dbus/v5 v5.1.0 h1:4KLkAxT3aOY8Li4FRJe/KvhoNFFxo0m6fNuFUO8QJUk=
+github.com/godbus/dbus/v5 v5.1.0/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
+github.com/ppacher/go-dbus-keyring v1.0.1 h1:dM4dMfP5w9MxY+foFHCQiN7izEGpFdKr3tZeMGmvqD0=
+github.com/ppacher/go-dbus-keyring v1.0.1/go.mod h1:JEmkRwBVPBFkOHedAsoZALWmhNJxR/R/ykkFpbEHtGE=
