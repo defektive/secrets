@@ -55,7 +55,10 @@ func GetSecret(label string) string {
 	}
 
 	for _, tg := range locked {
-		tg.Unlock()
+		_, err = tg.Unlock()
+		if err != nil {
+			return logError(err)
+		}
 
 		s, err := tg.GetSecret(session.Path())
 		if err != nil {
@@ -66,4 +69,3 @@ func GetSecret(label string) string {
 
 	return ""
 }
-
